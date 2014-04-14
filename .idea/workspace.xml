@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bd60b6ef-08c4-4f6e-8d40-c4004e0350ad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bene" afterPath="$PROJECT_DIR$/bene" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bene/lab4/broadcast.py" afterPath="$PROJECT_DIR$/bene/lab4/broadcast.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Routing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,38 +30,7 @@
       <file leaf-file-name="broadcast.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bene/lab4/broadcast.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="36" selection-start="3544" selection-end="3544" vertical-scroll-proportion="0.92484343" vertical-offset="1573" max-vertical-offset="2196">
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="broadcast.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bene/examples/broadcast.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="29" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="1782">
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BroadcastPacket.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bene/lab4/BroadcastPacket.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="node.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bene/lab4/node.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="55" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="43" column="63" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.5049116" vertical-offset="463" max-vertical-offset="1818">
               <folding />
             </state>
           </provider>
@@ -68,10 +39,26 @@
       <file leaf-file-name="node.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bene/src/node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="51" selection-start="1112" selection-end="1155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2160">
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state line="31" column="16" selection-start="603" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="2124">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="network.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bene/networks/network.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="21" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="738">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bene/lab4/node.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="57" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,9 +78,15 @@
       <list>
         <option value="$PROJECT_DIR$/bene/lab4/vector.py" />
         <option value="$PROJECT_DIR$/bene/src/packet.py" />
-        <option value="$PROJECT_DIR$/bene/lab4/node.py" />
         <option value="$PROJECT_DIR$/bene/lab4/packet.py" />
         <option value="$PROJECT_DIR$/bene/lab4/BroadcastPacket.py" />
+        <option value="$PROJECT_DIR$/bene/src/node.py" />
+        <option value="$PROJECT_DIR$/bene/networks/simple.txt" />
+        <option value="$PROJECT_DIR$/bene/src/sim.py" />
+        <option value="$PROJECT_DIR$/bene/networks/five-nodes.txt" />
+        <option value="$PROJECT_DIR$/bene/networks/five-node-ring.txt" />
+        <option value="$PROJECT_DIR$/bene/networks/network.py" />
+        <option value="$PROJECT_DIR$/bene/lab4/node.py" />
         <option value="$PROJECT_DIR$/bene/lab4/broadcast.py" />
       </list>
     </option>
@@ -185,7 +178,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="networks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Routing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Routing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bene" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lab4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Routing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Routing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bene" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -202,6 +231,11 @@
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bene/networks" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.broadcast">
     <configuration default="false" name="broadcast" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -365,20 +399,20 @@
     <frame x="64" y="-4" width="1377" height="905" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19127272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -398,22 +432,71 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bene/src/packet.py">
+    <entry file="file://$PROJECT_DIR$/bene/lab4/broadcast.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="338" selection-end="338" vertical-scroll-proportion="0.28290766" vertical-offset="0" max-vertical-offset="522">
+        <state line="103" column="32" selection-start="3442" selection-end="3442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3114">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bene/src/link.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242">
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
+        <state line="9" column="32" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/src/sim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/networks/network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/lab4/node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="54" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/networks/simple.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/networks/five-nodes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/lab4/broadcast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="33" selection-start="3061" selection-end="3061" vertical-scroll-proportion="0.0" vertical-offset="1481" max-vertical-offset="2196">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/examples/broadcast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="29" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="1782">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -424,37 +507,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bene/examples/broadcast.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="29" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="1782">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bene/lab4/node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="55" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state line="11" column="55" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bene/src/node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="51" selection-start="1112" selection-end="1155" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2160">
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state line="48" column="51" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2160">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bene/lab4/broadcast.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="36" selection-start="3544" selection-end="3544" vertical-scroll-proportion="0.92484343" vertical-offset="1573" max-vertical-offset="2196">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state line="112" column="36" selection-start="3544" selection-end="3544" vertical-scroll-proportion="0.0" vertical-offset="1609" max-vertical-offset="2196">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/examples/broadcast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="29" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="1782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/lab4/BroadcastPacket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/lab4/node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="55" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/src/node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="51" selection-start="1112" selection-end="1155" vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="2160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/src/packet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="7" selection-start="338" selection-end="338" vertical-scroll-proportion="0.28290766" vertical-offset="0" max-vertical-offset="522" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/lab4/BroadcastPacket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/src/tcppacket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="509" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/src/transport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/src/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="509">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/examples/delay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="66" selection-start="1865" selection-end="1927" vertical-scroll-proportion="0.0" vertical-offset="746" max-vertical-offset="1242" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/networks/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="509" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/sched.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="0" selection-start="4440" selection-end="4440" vertical-scroll-proportion="0.33202356" vertical-offset="1901" max-vertical-offset="2502" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/src/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="0.7524558" vertical-offset="49" max-vertical-offset="558" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/src/sim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="8" selection-start="215" selection-end="215" vertical-scroll-proportion="0.4243615" vertical-offset="0" max-vertical-offset="509">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/networks/simple.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="5" selection-start="11" selection-end="11" vertical-scroll-proportion="0.035363458" vertical-offset="0" max-vertical-offset="509">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/examples/broadcast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="29" selection-start="563" selection-end="563" vertical-scroll-proportion="0.78781927" vertical-offset="13" max-vertical-offset="1764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/src/link.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="32" selection-start="290" selection-end="290" vertical-scroll-proportion="0.2475442" vertical-offset="0" max-vertical-offset="1206">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/networks/five-node-ring.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="5" selection-start="11" selection-end="11" vertical-scroll-proportion="0.035363458" vertical-offset="0" max-vertical-offset="509">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/networks/five-nodes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/networks/network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="21" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/src/node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="16" selection-start="603" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="2124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/lab4/node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="57" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bene/lab4/broadcast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="63" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.5049116" vertical-offset="463" max-vertical-offset="1818">
+          <folding />
         </state>
       </provider>
     </entry>
